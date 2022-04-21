@@ -11,16 +11,12 @@ Like.init(
       defaultValue: null,
       primaryKey: true,
       autoIncrement: true,
-      comment: null,
       field: 'id',
     },
     campsite_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: null,
-      primaryKey: false,
-      autoIncrement: false,
-      comment: null,
       field: 'campsite_id',
       references: {
         key: 'id',
@@ -31,9 +27,6 @@ Like.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: null,
-      primaryKey: false,
-      autoIncrement: false,
-      comment: null,
       field: 'user_id',
       references: {
         key: 'id',

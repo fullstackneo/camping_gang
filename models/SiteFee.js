@@ -11,17 +11,13 @@ SiteFee.init(
       defaultValue: null,
       primaryKey: true,
       autoIncrement: true,
-      comment: null,
-      field: "id"
+      field: 'id',
     },
     name: {
       type: DataTypes.STRING(32),
       allowNull: true,
       defaultValue: null,
-      primaryKey: false,
-      autoIncrement: false,
-      comment: null,
-      field: "name"
+      field: 'name',
     },
   },
   {
